@@ -119,7 +119,7 @@ O processo do desafio deve ser:
 
 1. Faça o fork do desafio.
 
-2. Desenvolva! Você terá **5 dias** a partir da data do envio do desafio.
+2. Desenvolva! Você terá **4 dias** a partir da data do envio do desafio.
 
 3. Crie um **PROJECT.md** com a explicação de como devemos executar o projeto e com o máximo de detalhes possível do que foi feito.
 
