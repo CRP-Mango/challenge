@@ -1,4 +1,4 @@
-# challange<p align="center">
+<p align="center">
   <a href="http://www.crpmango.com.br">
       <img src="https://www.crpmango.com.br/wp-content/themes/crpmango/assets/img/logotipo-crpmango.png" alt="CRP Mango" width="300px"/>
   </a>
