@@ -19,23 +19,19 @@ processo de recrutamento para vaga de Full-stack?
 
 ### Requisitos
 
-Requisitos para a vaga, bons conhecimentos em:
-
-- HTML
-- CSS
-- Javascript
-- NodeJS
-- PHP
-- SQL
-- RESTful
-- Laravel
-- Vue
+Domínio das linguagens Web: HTML, CSS, JavaScript e PHP;
+Lógica de Programação;
+Conhecimentos em criação de temas e plugins para Wordpress;
+Conhecimento para criação de projetos em Laravel;
+Conhecimento em Git/Github;
+Experiência com Banco de dados MySQL;
+Boas práticas de programação, SEO e Performance;
 
 ### O Desafio
 
 Um usuário quer saber como vai ficar o 
 tempo para os próximos dias em Osasco e São Paulo utilizando
-seu smartphone. 
+seu smartphone ou computador. 
 
 O que esperamos:
  
@@ -107,24 +103,22 @@ O que vamos avaliar:
 - Boas práticas.
 
 ### Stack
+
 Para o desafio você pode utilizar o seguinte stack:
 
 - Framework Laravel (PHP)
-- Javascript
 - Vue (Opcional)
+
+Esse stack é uma sugestão, você pode utilizar o stack de sua preferência de acordo com os requisitos da vaga.
 
 ### Comece
 
 O processo do desafio deve ser:
 
 1. Faça o fork do desafio.
-
-2. Desenvolva! Você terá **4 dias** a partir da data do envio do desafio.
-
+2. Desenvolva! Você terá **5 dias** a partir da data do envio do desafio.
 3. Crie um **PROJECT.md** com a explicação de como devemos executar o projeto e com o máximo de detalhes possível do que foi feito.
-
 4. Após concluir faça um pull request.
-
 5. Envie um e-mail para desenvolvimento@crpmango.com.br com o **link do seu pull request**.
 
 
