@@ -21,3 +21,14 @@ h1 {
       font-size: 3.5rem;
     }
   }
+
+  .card-date{
+      display: flex;
+      flex-direction: column;
+      background-color: #EEEEEE;
+  }
+
+  .card-data-tempo{
+    display: flex;
+    justify-content: space-between;
+  }
