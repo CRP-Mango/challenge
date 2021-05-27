@@ -41,9 +41,10 @@
         <div class="form-outline">
             <input type="search" id="form1" class="form-control" placeholder="Pesquisar"/>
         </div>
-        <!--button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary">
             <i class="fas fa-search"></i>
-      </button-->
+
+        </button>
     </div>
 
 
