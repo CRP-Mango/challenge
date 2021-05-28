@@ -11,12 +11,8 @@ class WeatherController extends Controller
         $weather_json = json_decode( file_get_contents( 'base/weather.json' ) );
 
         $locale2 = $request->all();
-        #dd($locale2);
 
-        return view('index',
-        [
-            'climates'  =>  $weather_json
-        ]);
+        return view('index',['climates'=>$weather_json]);
     }
 
     public function search(Request $request){
@@ -26,10 +22,12 @@ class WeatherController extends Controller
         #$locale_name = $request->query('search');
         $locale_name = $request->input('search');
         $locale_prepare = strtolower($locale_name);
+        //padrao pesquisa nao encotrada
         $locale_default = new \stdClass();
         $locale_default->name = $locale_name;
         $locale_default->state = '??';
 
+        //returna a pesquisa
         foreach ($weather_json as $weather) {
             $weather_locale_name = strtolower($weather->locale->name);
             if ( strpos($weather_locale_name, $locale_prepare) !== false) {//strpos encontrar substr
@@ -40,9 +38,8 @@ class WeatherController extends Controller
                 ]);
             }
         }
-        #dd($locales_json);
-        #dd($weather_json);
 
+        //return padrao
         return view('search',
         [
             'weathers'  =>  [],
