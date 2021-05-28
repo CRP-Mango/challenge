@@ -1,29 +1,54 @@
+.Navbar{
+    background-color: blue;
+    margin: 0 auto;
+}
 .Navbar-brand{
    margin: 0 auto;
-
-
 }
 
 .Main{
     display: flex;
     justify-content: center;
+    max-width: 960px;
 }
 
 .Main-field{
-    border-top-left-radius: 10px;
+    /* border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     height: auto;
     border-right: none;
     border-color: teal;
+    outline: none; */
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
 }
 
 .Main-search{
-    border-top-right-radius: 10px;
+    /* border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: auto;
     background-color: white;
     border-left: none;
-    border-color: teal;
+    border-color: teal; */
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    fill: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Main-search svg{
+    fill: #fff;
 }
 .Conteudo{
     display: flex;

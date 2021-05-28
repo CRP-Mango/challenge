@@ -21,17 +21,19 @@
     </head>
     <body class="antialiased">
         <header class="Header">
-            <nav class="navbar navbar-light bg-light">
-                <div class="container">
+            <nav class="Navbar">
+                <div class="container d-flex">
                     <a class="Navbar-brand" href="#">
-                        <img src="./images/logo.png" alt="" width="300" height="100">
+                        <img src="./images/logo-white.png" alt="" width="300" height="100">
                     </a>
                 </div>
             </nav>
         </header>
         <div class="Main">
             <input class= "Main-field" type="text" placeholder="Digite o nome da cidade...">
-            <button class="Main-search">Buscar</button>
+            <button class="Main-search">
+            <img src="./images/icons/search-13-xxl.png" alt="">
+            </button>
         </div>
         <div class="mt-3 Conteudo">
             @yield('conteudo')
