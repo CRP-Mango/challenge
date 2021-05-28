@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WeatherController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/', 'App\Http\Controllers\WeatherController@search');
+#         Rota, Controller               ,action
+Route::get('/', [WeatherController::class,'index']);//Route::any recebe tanto get como post
+Route::get('/search', [WeatherController::class,'search']);//Route::any recebe tanto get como post
+Route::post('/search', [WeatherController::class,'search']);//Route::any recebe tanto get como post
+#Route::get('/', 'App\Http\Controllers\WeatherController@search');
 
 

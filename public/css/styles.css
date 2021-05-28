@@ -2,33 +2,60 @@
     font-family:'Roboto';
 }
 
-h1 {
-    color: red;
+body{
+    background-color: #E0E0E0;
 }
 
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+@media (max-width: 576px) {
+    .search-form{
+        width: 100%;
     }
-  }
+ }
 
-  .card-date{
-      display: flex;
-      flex-direction: column;
-      background-color: #EEEEEE;
-  }
+.card{
+    border-radius: 1.25rem;
+ }
 
-  .card-data-tempo{
+.card-date{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.card-data-tempo{
     display: flex;
     justify-content: space-between;
-  }
+}
+
+.card-tmax{
+      color:red;
+}
+
+.card-tmin{
+    color:#007bff;
+}
+
+.card-body{
+    height: 180px;
+}
+.search-input{
+    border-radius: 0;
+    border: none;
+    padding: 8px;
+    color: gray;
+    width: 100%;
+}
+
+.search-btn{
+    border-radius: 0;
+    border: none;
+    background-color:#fff;
+    color: #000;
+}
+
+.locale-title{
+    margin-bottom: 15px;
+}
