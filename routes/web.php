@@ -21,5 +21,5 @@ Route::post('/search', [WeatherController::class,'search']);//Route::any recebe 
 #Route::get('/', 'App\Http\Controllers\WeatherController@search');
 
 Route::get('/locale', [APIController::class,'getlocale']);
-
+Route::get('/period', [APIController::class,'getWeatherByPeriod']);
 
