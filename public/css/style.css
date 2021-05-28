@@ -1,17 +1,27 @@
 .Navbar{
-    background-color: blue;
+    background-color: white;
     margin: 0 auto;
+    border: white;
+
 }
 .Navbar-brand{
-   margin: 0 auto;
+   margin: 10px auto;
 }
 
 .Main{
     display: flex;
     justify-content: center;
     max-width: 960px;
+    margin: 15px 0;
 }
 
+.Main-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+    /* max-width: 900px; */
+}
 .Main-field{
     /* border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -20,13 +30,13 @@
     border-color: teal;
     outline: none; */
     width: 100%;
-    border: 3px solid #00B4CC;
+    border: 3px solid #2465f2;
     border-right: none;
     padding: 5px;
     height: 36px;
     border-radius: 5px 0 0 5px;
     outline: none;
-    color: #9DBFAF;
+    color: #2465f2;
 }
 
 .Main-search{
@@ -38,8 +48,8 @@
     border-color: teal; */
     width: 40px;
     height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
+    border: 1px solid #2465f2;
+    background: #2465f2;
     text-align: center;
     fill: #fff;
     border-radius: 0 5px 5px 0;
@@ -49,6 +59,18 @@
 
 .Main-search svg{
     fill: #fff;
+}
+
+.Main-title{
+    display: flex;
+    justify-content: center;
+}
+
+.Main-titleText{
+    font-size: 23px;
+    color: #344879;
+    text-align: center;
+    margin: 0 5px;
 }
 .Conteudo{
     display: flex;
@@ -68,8 +90,7 @@
 
 .Card {
     max-width: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     padding-top: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
     overflow: hidden;
@@ -82,18 +103,20 @@
 
 .Card-date{
     margin: 10px;
+
 }
 
 .Card-text{
     margin: 10px;
     font-size: 15px;
+    color: black;
 }
 
 .Card-info {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    background: gray;
+    background: #2465f2;
 }
 
 .Card-icons {
@@ -106,4 +129,10 @@
 
 .Card-arrow {
     margin-bottom: 15px;
+}
+
+@media (min-width: 500px){
+    .Main-titleText{
+        font-size: 50px;
+    }
 }

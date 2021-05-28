@@ -24,16 +24,22 @@
             <nav class="Navbar">
                 <div class="container d-flex">
                     <a class="Navbar-brand" href="#">
-                        <img src="./images/logo-white.png" alt="" width="300" height="100">
+                        <img src="./images/logo.png" alt="" width="300" height="42">
                     </a>
                 </div>
             </nav>
         </header>
         <div class="Main">
-            <input class= "Main-field" type="text" placeholder="Digite o nome da cidade...">
-            <button class="Main-search">
-            <img src="./images/icons/search-13-xxl.png" alt="">
-            </button>
+            <div class="Main-wrap">
+                <input class= "Main-field" type="text" placeholder="Digite o nome da cidade...">
+            
+                <button class="Main-search">
+                    <img src="./images/icons/loupe (2).png" alt="" width="27" height="27" >
+                </button>
+            </div>
+        </div>
+        <div class="Main-title">
+            <h1 class="Main-titleText" >Previsão para <span>São Paulo - SP</span></h1>
         </div>
         <div class="mt-3 Conteudo">
             @yield('conteudo')
