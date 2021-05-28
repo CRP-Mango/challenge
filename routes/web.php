@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WeatherController;
-
+use App\Http\Controllers\APIController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +19,7 @@ Route::get('/', [WeatherController::class,'index']);//Route::any recebe tanto ge
 Route::get('/search', [WeatherController::class,'search']);//Route::any recebe tanto get como post
 Route::post('/search', [WeatherController::class,'search']);//Route::any recebe tanto get como post
 #Route::get('/', 'App\Http\Controllers\WeatherController@search');
+
+Route::get('/locale', [APIController::class,'getlocale']);
 
 
