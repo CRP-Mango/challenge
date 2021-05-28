@@ -1,0 +1,84 @@
+.Navbar-brand{
+   margin: 0 auto;
+
+
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+}
+
+.Main-field{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    border-right: none;
+    border-color: teal;
+}
+
+.Main-search{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: auto;
+    background-color: white;
+    border-left: none;
+    border-color: teal;
+}
+.Conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.Cards{
+    display: flex;
+    gap: 50 px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Container{
+    max-width: 1200px;
+}
+
+.Card {
+    max-width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.Card:hover{
+    transform: scale(1.02);
+}
+
+.Card-date{
+    margin: 10px;
+}
+
+.Card-text{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.Card-info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background: gray;
+}
+
+.Card-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 10px;
+    
+}
+
+.Card-arrow {
+    margin-bottom: 15px;
+}
