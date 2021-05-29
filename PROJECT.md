@@ -40,9 +40,9 @@ Abrir o terminal dentro da pasta do projeto e executar comando para subir o serv
     - Ex. da rota period: localhost:8000/period?begin=2017-02-03&end=2017-02-05
     
     3. O método getWeatherByLocale retorna weathers do base/weather.json. 
-    - Ex. da rota locale: localhost:8000/weather/locale (Retorna todas localidades com seus weather).
-    - Ex. da rota locale: localhost:8000/weather/locale?id=3735
-    - Ex. da rota locale: localhost:8000/weather/locale?id=3735&name=o&state=s&longitude=7&latitude=2
+    - Ex. da rota weather/locale: localhost:8000/weather/locale (Retorna todas localidades com seus weather).
+    - Ex. da rota weather/locale: localhost:8000/weather/locale?id=3735
+    - Ex. da rota weather/locale: localhost:8000/weather/locale?id=3735&name=o&state=s&longitude=7&latitude=2
 
     4. O método getWeather retorna weathers do base/weather.json. 
     - Ex. da rota locale: localhost:8000/weather (Retorna todas weather).
