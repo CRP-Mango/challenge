@@ -1,4 +1,5 @@
 MODO DE EXERCUÇÃO:
+
     Execurta em sevidor local ou servidor externo
     para facilitar pode-se executar dentro do terminal com o servidor do laravel
 
