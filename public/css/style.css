@@ -1,0 +1,156 @@
+.Body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Navbar{
+    background-color: white;
+    margin: 0 auto;
+    border: white;
+
+}
+.Navbar-brand{
+   margin: 10px auto;
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 15px 0;
+}
+
+.Main-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+
+}
+.Main-field{
+    width: 100%;
+    border: 3px solid #2465f2;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #2465f2;
+}
+
+.Main-search{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #2465f2;
+    background: #2465f2;
+    text-align: center;
+    fill: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Main-search svg{
+    fill: #fff;
+}
+
+.Main-title{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Main-titleText{
+    font-size: 23px;
+    color: #344879;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.Main-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.Conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .Cards{
+    display: flex;
+    gap: 50 px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+} */
+
+.Container{
+    max-width: 1200px;
+}
+
+.Card {
+    max-width: 300px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.Card:hover{
+    transform: scale(1.02);
+}
+
+.Card-date{
+    margin: 10px;
+    color: #344879;
+    font-weight: 700;
+}
+
+.Card-text{
+    margin: 10px;
+    font-size: 15px;
+    color: #344879;
+    height: 70px;
+}
+
+.Card-info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background: #2465f2;
+}
+
+.Card-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 10px;
+    filter: drop-shadow(2px 4px 6px white);
+}
+
+.Card-arrow {
+    margin-bottom: 15px;
+    filter: drop-shadow(2px 4px 6px white);
+}
+.Card-prep{
+    color: white;
+}
+
+.Card-max{
+    color: white;
+}
+
+.Card-min{
+    color: white;
+}
+
+@media (min-width: 500px){
+    .Main-titleText{
+        font-size: 50px;
+    }
+}
