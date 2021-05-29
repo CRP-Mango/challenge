@@ -27,10 +27,19 @@ class WeatherController extends Controller
         $locale_default->name = $locale_name;
         $locale_default->state = '??';
 
-        //returna a pesquisa
+        //caso vazio
+        if ( !$locale_name ) {
+            return view('search',
+            [
+                'weathers'  =>  [],
+                'locale'    =>  $locale_default
+            ]);
+        }
+
+        //return a pesquisa
         foreach ($weather_json as $weather) {
             $weather_locale_name = strtolower($weather->locale->name);
-            if ( strpos($weather_locale_name, $locale_prepare) !== false) {//strpos encontrar substr
+            if ( strpos($weather_locale_name, $locale_prepare) !== false ) {//strpos encontrar substr
                 return view('search',
                 [
                     'weathers'  =>  $weather->weather,
@@ -39,7 +48,7 @@ class WeatherController extends Controller
             }
         }
 
-        //return padrao
+        //return padrao: nao encontrado
         return view('search',
         [
             'weathers'  =>  [],
