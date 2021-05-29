@@ -1,3 +1,9 @@
+.Body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Navbar{
     background-color: white;
     margin: 0 auto;
@@ -20,15 +26,9 @@
     flex-wrap: nowrap;
     width: 300px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
-    /* max-width: 900px; */
+
 }
 .Main-field{
-    /* border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    height: auto;
-    border-right: none;
-    border-color: teal;
-    outline: none; */
     width: 100%;
     border: 3px solid #2465f2;
     border-right: none;
@@ -40,12 +40,6 @@
 }
 
 .Main-search{
-    /* border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: auto;
-    background-color: white;
-    border-left: none;
-    border-color: teal; */
     width: 40px;
     height: 36px;
     border: 1px solid #2465f2;
@@ -64,6 +58,7 @@
 .Main-title{
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .Main-titleText{
@@ -72,17 +67,26 @@
     text-align: center;
     margin: 0 5px;
 }
+
+.Main-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 .Conteudo{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.Cards{
+/* .Cards{
     display: flex;
     gap: 50 px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    flex-direction: row;
+} */
 
 .Container{
     max-width: 1200px;
@@ -103,13 +107,15 @@
 
 .Card-date{
     margin: 10px;
-
+    color: #344879;
+    font-weight: 700;
 }
 
 .Card-text{
     margin: 10px;
     font-size: 15px;
-    color: black;
+    color: #344879;
+    height: 70px;
 }
 
 .Card-info {
@@ -124,11 +130,23 @@
     flex-direction: column;
     align-items: baseline;
     padding: 10px;
-    
+    filter: drop-shadow(2px 4px 6px white);
 }
 
 .Card-arrow {
     margin-bottom: 15px;
+    filter: drop-shadow(2px 4px 6px white);
+}
+.Card-prep{
+    color: white;
+}
+
+.Card-max{
+    color: white;
+}
+
+.Card-min{
+    color: white;
 }
 
 @media (min-width: 500px){

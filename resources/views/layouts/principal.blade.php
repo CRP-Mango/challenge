@@ -19,7 +19,7 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body class="Body">
         <header class="Header">
             <nav class="Navbar">
                 <div class="container d-flex">
@@ -34,12 +34,9 @@
                 <input class= "Main-field" type="text" placeholder="Digite o nome da cidade...">
             
                 <button class="Main-search">
-                    <img src="./images/icons/loupe (2).png" alt="" width="27" height="27" >
+                    <img src="./images/icons/loupe (2).png" alt="" width="20" height="20" >
                 </button>
             </div>
-        </div>
-        <div class="Main-title">
-            <h1 class="Main-titleText" >Previsão para <span>São Paulo - SP</span></h1>
         </div>
         <div class="mt-3 Conteudo">
             @yield('conteudo')
