@@ -29,15 +29,15 @@
                 </div>
             </nav>
         </header>
-        <div class="Main">
+        <form action="" class="Main">
             <div class="Main-wrap">
-                <input class= "Main-field" type="text" placeholder="Digite o nome da cidade...">
+                <input class= "Main-field" name="s" value="{{request('s')}}" type="text" placeholder="Digite o nome da cidade...">
             
                 <button class="Main-search">
                     <img src="./images/icons/loupe (2).png" alt="" width="20" height="20" >
                 </button>
             </div>
-        </div>
+        </form>
         <div class="mt-3 Conteudo">
             @yield('conteudo')
         </div>

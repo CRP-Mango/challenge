@@ -22,4 +22,4 @@ use App\Http\Controllers\PrevisaoController;
 
 // });
 
-Route::get('/', [PrevisaoController::class,'buscar']);
+Route::get('/', 'App\Http\Controllers\PrevisaoController@index');
