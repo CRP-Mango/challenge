@@ -1,11 +1,10 @@
 MODO DE EXERCUÇÃO:
 
-    Execurta em sevidor local ou servidor externo
+    Execurta em sevidor local ou servidor externo,
     para facilitar pode-se executar dentro do terminal com o servidor do laravel
 
     php artisan serve
-
-Explicação
+EXPLICAÇÃO:
 
     Na pasta view estão todas a paginas executadas welcome.blade.php e
     a pagina pricipal.blade.php.
@@ -25,3 +24,14 @@ Explicação
     http://127.0.0.1:8000/api/weather/date/2017-02-03
 
     seguindo sempre o valores e caminhos internos do json.
+
+    RESUMO:
+    Instalação do composer;
+    Instalação do framework laravel;
+    Edição da views{
+            frontend: resposividade, edição de grid, bootstrap, cores, e detalhes em css
+            backend: controle da entrada de busca, controle das saidadas de valores vindas do API por sua vez vindas do json.
+        }
+    Criação da rotas para acesso as views;
+    Uma API com endpoints para buscar localidades e previsão fazendo leitura dos JSONs no diretório base;
+    criação do arquivo PROJECTmd com a descrição meis detalhada possivel da criação do prgrama;
