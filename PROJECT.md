@@ -26,6 +26,7 @@ EXPLICAÇÃO:
     seguindo sempre o valores e caminhos internos do json.
 
     RESUMO:
+    
     Instalação do composer;
     Instalação do framework laravel;
     Edição da views{
