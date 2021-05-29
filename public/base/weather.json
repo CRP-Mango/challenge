@@ -113,7 +113,7 @@
     "weather": [
       {
         "date": "2017-02-01",
-        "text": "Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
+        "text": "1Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
         "temperature": {
           "min": 19,
           "max": 27
@@ -125,7 +125,7 @@
       },
       {
         "date": "2017-02-02",
-        "text": "Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
+        "text": "2Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
         "temperature": {
           "min": 20,
           "max": 29
@@ -137,7 +137,7 @@
       },
       {
         "date": "2017-02-03",
-        "text": "Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
+        "text": "3Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
         "temperature": {
           "min": 21,
           "max": 30
@@ -149,7 +149,7 @@
       },
       {
         "date": "2017-02-04",
-        "text": "Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
+        "text": "4Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
         "temperature": {
           "min": 21,
           "max": 31
@@ -161,7 +161,7 @@
       },
       {
         "date": "2017-02-05",
-        "text": "Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+        "text": "5Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
         "temperature": {
           "min": 22,
           "max": 31
@@ -173,7 +173,7 @@
       },
       {
         "date": "2017-02-06",
-        "text": "Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
+        "text": "6Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
         "temperature": {
           "min": 21,
           "max": 32
@@ -185,7 +185,7 @@
       },
       {
         "date": "2017-02-07",
-        "text": "Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
+        "text": "7Sol com algumas nuvens. Chove rápido durante o dia e à noite.",
         "temperature": {
           "min": 22,
           "max": 33

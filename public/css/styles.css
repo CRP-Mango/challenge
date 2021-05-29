@@ -1,0 +1,61 @@
+*{
+    font-family:'Roboto';
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+
+@media (max-width: 576px) {
+    .search-form{
+        width: 100%;
+    }
+ }
+
+.card{
+    border-radius: 1.25rem;
+ }
+
+.card-date{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.card-data-tempo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-tmax{
+      color:red;
+}
+
+.card-tmin{
+    color:#007bff;
+}
+
+.card-body{
+    height: 180px;
+}
+.search-input{
+    border-radius: 0;
+    border: none;
+    padding: 8px;
+    color: gray;
+    width: 100%;
+}
+
+.search-btn{
+    border-radius: 0;
+    border: none;
+    background-color:#fff;
+    color: #000;
+}
+
+.locale-title{
+    margin-bottom: 15px;
+}
