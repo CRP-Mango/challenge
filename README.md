@@ -106,10 +106,10 @@ O que vamos avaliar:
 
 Para o desafio você pode utilizar o seguinte stack:
 
-- Framework Laravel (PHP)
-- Vue (Opcional)
+- Framework Laravel ou Wordpress (Front pode ser dentro de um tema do Wordpress ou nas blades do Laravel)
+- Vue ou ReactJS (Opcional)
 
-Esse stack é uma sugestão, você pode utilizar o stack de sua preferência de acordo com os requisitos da vaga.
+Esse stack é apenas uma sugestão, você pode utilizar o stack de sua preferência de acordo com os requisitos da vaga.
 
 ### Comece
 
